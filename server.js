@@ -36,7 +36,7 @@ container.resolve(function(users, _){
             //Setup router
         const router = require('express-promise-router')();
         users.SetRouting(router);
-
+        //home.SetRouting(router);
         app.use(router);
     }
 
